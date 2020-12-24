@@ -1,0 +1,391 @@
+img{
+    height: 150px;
+    width: 45%;
+    margin-left: 2%;
+    margin-top: 2%;
+  
+}
+.cards{
+    display: flex ;
+    flex-wrap: wrap;
+}
+.odin{
+    margin-left: 1%;
+    height: 280px;
+    width: 31%;
+    background-color: gray;
+    border-radius: 5px;
+    border:1px solid rgb(12, 10, 10);
+    min-width: 200px;
+
+   
+}
+.dva{
+    margin-left: 1%;
+    height: 280px;
+    width: 31%;
+    background-color: gray;
+    border-radius: 5px;
+    border:1px solid rgb(12, 10, 10);
+    min-width: 200px;
+}
+.tru{
+    margin-left: 1%;
+    height: 280px;
+    width: 31%;
+    background-color: gray;
+    border-radius: 5px;
+    border:1px solid rgb(12, 10, 10);
+    min-width: 200px;
+}
+.chetire{
+    margin-left: 1%;
+    height: 280px;
+    width: 31%;
+    background-color: gray;
+    margin-top: 1%;
+    border-radius: 5px;
+    border:1px solid rgb(12, 10, 10);
+    min-width: 200px;
+}
+.pyat{
+    margin-left: 1%;
+    height: 280px;
+    width: 31%;
+    background-color: gray;
+    margin-top: 1%;
+    border-radius: 5px;
+    border:1px solid rgb(12, 10, 10);
+    min-width: 200px;
+}
+
+.shest{
+    margin-left: 1%;
+    height: 280px;
+    width: 31%;
+    background-color: gray;
+    margin-top: 1%;
+    border-radius: 5px;
+    border:1px solid rgb(12, 10, 10);
+    min-width: 200px;
+}
+.sem{
+    margin-left: 1%;
+    height: 280px;
+    width: 31%;
+    background-color: gray;
+    margin-top: 1%;
+    border-radius: 5px;
+    border:1px solid rgb(12, 10, 10);
+    min-width: 200px;
+}
+.devyat{
+    margin-left: 1%;
+    height: 280px;
+    width: 31%;
+    background-color: gray;
+    margin-top: 1%;
+    border-radius: 5px;
+    border:1px solid rgb(12, 10, 10);
+    min-width: 200px;
+
+}
+.vosem{
+    margin-left: 1%;
+    height: 280px;
+    width: 31%;
+    background-color: gray;
+    margin-top: 1%;
+    border-radius: 5px;
+    border:1px solid rgb(12, 10, 10);
+    min-width: 200px;
+    
+    
+}
+.fon{
+    display: flex;
+}
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.filter{
+    width: 30%;
+    background-color: gray;
+    height: 890px;
+    margin-right: 1%;
+    border-radius: 5px;
+}
+.riska{
+    width: 100%;
+    height: 1%;
+    background-color: rgb(117, 116, 116);
+    margin-top: 5%;
+}
+.perenos{
+    flex-direction: column;
+}
+.podin{
+    margin-left: 7%;
+}
+.pdva{
+    margin-left: 7%;
+}
+.fonbykvu{
+    text-align: center;
+    font-size: 24x;
+}
+.gop{
+    width: 160px;
+    height: 20px;
+}
+input{
+  display: none;  
+}
+.knopka11{
+    background-color:  rgb(95, 92, 92);
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    margin-left: 6%;
+    border-radius: 5px;
+}
+.knopka22{
+    background-color:  rgb(95, 92, 92);
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    margin-left: 6%;
+    border-radius: 5px;
+}
+.knopka33{
+    background-color:  rgb(95, 92, 92);
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    margin-left: 6%;
+    border-radius: 5px;
+}
+.knopka44{
+    background-color:  rgb(95, 92, 92);
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    margin-left: 6%;
+    border-radius: 5px;
+}
+.knopka55{
+    background-color:  rgb(95, 92, 92);
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    margin-left: 6%;
+    border-radius: 5px;
+}
+.knopka66{
+    background-color:  rgb(95, 92, 92);
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    margin-left: 6%;
+    border-radius: 5px;
+}
+.H{
+    text-align: center;
+    font-size: 40px;
+}
+footer{
+    margin-top: 1%;
+    display: flex;
+}
+.fot1{
+    font-size: 20px;
+    margin-left:2%;
+}
+.fot3{
+    margin-left: 77%;
+    color: rgb(133, 133, 245);
+}
+a{
+    text-decoration: none;
+    color: rgb(117, 117, 247);
+    font-size: 20px;
+}
+#knopka1:checked ~ .odin {
+    display: none;
+}
+#knopka1:checked ~ .tru {
+    display: none;
+}
+#knopka1:checked ~ .chetire {
+    display: none;
+}
+#knopka1:checked ~ .pyat {
+    display: none;
+}
+#knopka1:checked ~ .shest {
+    display: none;
+}
+#knopka1:checked ~ .sem {
+    display: none;
+}
+#knopka1:checked ~ .vosem {
+    display: none;
+}
+#knopka1:checked ~ .devyat {
+    display: none;
+}
+#knopka2:checked ~ .dva {
+    display: none;
+}
+#knopka2:checked ~ .tru {
+    display: none;
+}
+#knopka2:checked ~ .chetire {
+    display: none;
+}
+#knopka2:checked ~ .pyat {
+    display: none;
+}
+#knopka2:checked ~ .shest {
+    display: none;
+}
+#knopka2:checked ~ .sem {
+    display: none;
+}
+#knopka2:checked ~ .vosem {
+    display: none;
+}
+#knopka2:checked ~ .devyat {
+    display: none;
+}
+#knopka3:checked ~ .odin {
+    display: none;
+}
+#knopka3:checked ~ .dva {
+    display: none;
+}
+#knopka3:checked ~ .tru {
+    display: none;
+}
+#knopka3:checked ~ .shest {
+    display: none;
+}
+#knopka3:checked ~ .sem {
+    display: none;
+}
+#knopka3:checked ~ .vosem {
+    display: none;
+}
+#knopka4:checked ~ .odin {
+    display: none;
+}
+#knopka4:checked ~ .dva {
+    display: none;
+}
+#knopka4:checked ~ .chetire {
+    display: none;
+}
+#knopka4:checked ~ .pyat {
+    display: none;
+}
+#knopka4:checked ~ .sem {
+    display: none;
+}
+#knopka4:checked ~ .vosem {
+    display: none;
+}
+#knopka4:checked ~ .devyat {
+    display: none;
+}
+#knopka5:checked ~ .odin {
+    display: none;
+}
+#knopka5:checked ~ .dva {
+    display: none;
+}
+#knopka5:checked ~ .tru {
+    display: none;
+}
+#knopka5:checked ~ .chetire {
+    display: none;
+}
+#knopka5:checked ~ .pyat {
+    display: none;
+}
+#knopka5:checked ~ .shest {
+    display: none;
+}
+#knopka5:checked ~ .devyat {
+    display: none;
+}
+@media(max-width:1200px){
+    .main{
+        flex-direction: column;
+    }
+    .gop{
+        display: none;
+    }
+    .fonbykvu{
+        display: none;
+    }
+    .podin{
+        margin-top: 0;
+    }
+    .filter{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 200px;
+        background-color: white;
+    }
+    .knopka11{
+        width:300px;
+        margin-left: 50px;
+    }
+    .fon{
+        display: block;
+    }
+    .riska{
+        display: none;
+    }
+    .calor{
+        display: none;
+    }
+    img{
+        width: 90%;
+        height: 210px;
+    }
+    .perenos{
+        display: flex;
+        flex-direction: row;
+    }
+    .fot3{
+        margin-left: 45%;
+        color: rgb(133, 133, 245);
+    }
+    }
+    @media(max-width:1070px){
+        .filter{
+            margin-left: 5%;
+            padding-bottom: 100px;
+        }
+        .knopka11{
+            width: 250px;
+            margin-left: 20px;
+        }
+        }
+        @media(max-width:730px){
+            .knopka11{
+                width: 200px;
+                margin-left: 20px;
+            }
+            .odin , .dva ,.tru , .chetire , .pyat , .shest ,.sem ,.vosem ,.devyat{
+                width: 100%;
+            }
+            .fot3{
+                margin-left: 25%;
+                color: rgb(133, 133, 245);
+            }
+            }
